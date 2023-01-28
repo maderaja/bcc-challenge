@@ -9,5 +9,5 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api', router);
 
 app.listen(port, () => {
-  console.log(`App Success listening at | http://localhost:${port}`);
+  console.log(`App Listening at | http://localhost:${port}`);
 });
